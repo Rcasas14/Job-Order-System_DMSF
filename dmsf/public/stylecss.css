@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("Fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Montsserat";
+    src: url("Fonts/Montserrat/Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family: "Roboto-BoldC";
+    src: url("Fonts/Roboto/Roboto-BoldCondensed.ttf");
+}
+
+body {
+    background-color: #353c47;
+}
+
+p,
+h1,
+h2,
+h3 {
+    color: #000;
+}
+
+
+/*-------------
+loginPage CSS
+-------------*/
+
+.ind-body {
+    background-color: aliceblue;
+}
+
+.login-button {
+    border-radius: 5%;
+    font-family: "Roboto-Light";
+    margin-left: 100px;
+    font-family: "Montsserat";
+    margin-top: 50px;
+    background-color: #353c47;
+    color: #fff;
+}
+
+.login-button:hover {
+    cursor: pointer;
+    color: #000;
+    !important;
+    background-color: #fff;
+    !important;
+}
+
+.h3-title {
+    font-family: "Montsserat";
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/*modified-card*/
+
+.mod-card {
+    padding: 50px;
+    border-radius: 2%;
+    background-color: floralwhite;
+}
+
+.input {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+
+/*-----------
+indexPage Css
+------------*/
+
+.top-section {
+    background-color: #353c47;
+    display: block;
+    height: 67px;
+    border-radius: 2%;
+}
+
+.top-section p {
+    color: #fff;
+}
+
+.dept-name {
+    font-family: "Montsserat";
+    font-size: 20px;
+    float: left;
+    padding: 15px;
+}
+
+.request-table-card {
+    height: 650px;
+    width: 1200px;
+    border-radius: 1%;
+    background-color: rgba(250, 250, 250, 0.5);
+}
+
+.user-details {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Roboto-BoldC";
+    margin-right: 30px;
+}
+.user-details:hover{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #000;
+}
+.float{
+    float: right;
+}
+.logout:hover {
+    cursor: pointer;
+    color: #000;
+    text-decoration: none !important;
+}
+
+.logout {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Roboto-BoldC";
+    float: right;
+    margin-right: 50px;
+}
+
+.date-sort {
+    float: right;
+    width: 170px;
+    margin: 8px;
+}
+
+.request-list {
+    display: block;
+}
+
+.search-button {
+    width: 65px;
+    height: 30px;
+    padding-right: 50px;
+    font-size: 12px;
+    float: right;
+    margin: 8px;
+}
+
+.request-button {
+    float: left;
+    margin-left: 60px;
+    width: 90px;
+    height: 37px;
+    font-size: 11px;
+    font-weight: 400px;
+    padding: 0px !important;
+    border-radius: 5%;
+    font-family: "Roboto-BoldC";
+    background-color: #353c47;
+    color: #fff;
+}
+
+.req-thead th {
+    font-family: "Montsserat";
+    font-size: 14px;
+    font-weight: 400;
+    color: #000 !important;
+}
+
+.req-td td {
+    font-family: "Roboto-BoldC";
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.tableMargin {
+    margin-left: 20px;
+}
+
+.uk-modal-dialog {
+    width: 990px !important;
+    height: 580px;
+}
+
+.modal-input {
+    width: 300px;
+    height: 30px;
+    margin-top: -20px;
+    font-size: 13px;
+    display: inline;
+}
+
+.job-tittle {
+    font-weight: 400;
+    color: #000 !important;
+}
+
+.uk-modal-title {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Montsserat";
+}
+
+.req-modal p {
+    color: #000;
+    font-size: 13px;
+}
+
+.disp-inline {
+    display: inline-block;
+}
+
+.uk-textarea {
+    width: 560px;
+    color: #000 !important;
+    font-size: 14px !important;
+}
+
+.uk-subnav li {
+    color: #000 !important;
+    font-family: "Roboto-BoldC";
+    font-size: 13.5px;
+}
+
+.uk-subnav {
+    margin-top: 30px;
+    margin-left: 800px;
+}
